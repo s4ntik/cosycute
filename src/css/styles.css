@@ -131,7 +131,7 @@ body {
 }
 
 .cls-1 {
-  fill: #ff6166;
+  fill: var(--main-color);
 }
 
 .cls-1, .cls-2, .cls-3 {
