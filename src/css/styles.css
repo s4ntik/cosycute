@@ -17,9 +17,6 @@ body {
   bottom: 0;
   right: 36px;
 }
-.clock-container {
-  /* empty for now */
-}
 
 #date {
   color: white;
@@ -215,7 +212,6 @@ body {
   background-color: var(--main-color);
   height: 40px;
   width: 190px;
-  left: 43px;
   padding: 6px;
   bottom: 73px;
   left: 43px;
