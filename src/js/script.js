@@ -110,4 +110,11 @@ document.addEventListener("DOMContentLoaded", function() {
     updateClock();
     updateCountdown();
     fetchData();
-});
+
+    // Reset the container after 20 seconds using cloneNode(true)
+    setTimeout(function() {
+        const elm = document.querySelector('.container');
+        const newone = elm.cloneNode(true);
+        elm.parentNode.replaceChild(newone, elm);
+    }, 25000); // 20 seconds
+})
